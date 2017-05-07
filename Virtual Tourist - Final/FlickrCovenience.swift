@@ -43,7 +43,7 @@ extension FlickrClient {
             
             // Max number of pages = 4000 / per_page
             
-            let numberOfPages = min(pages.integerValue, 333)
+            let numberOfPages = min(pages.integerValue, 444)
             pageNumber = "\(Int(arc4random_uniform(UInt32(numberOfPages)) + 1))"
         }
         
